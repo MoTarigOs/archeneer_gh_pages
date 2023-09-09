@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/archeneer_gh_pages/static/css/main.d470b2ae.css",
-    "main.js": "/archeneer_gh_pages/static/js/main.580b836a.js",
+    "main.js": "/archeneer_gh_pages/static/js/main.81e9f98a.js",
     "static/media/inside_is_no_less_important.jpg": "/archeneer_gh_pages/static/media/inside_is_no_less_important.11fb65dcd4a437d7ad9a.jpg",
     "static/media/beutiful_relaxed_design.jpg": "/archeneer_gh_pages/static/media/beutiful_relaxed_design.d409a7ec63fc7456d738.jpg",
     "static/media/old_civilization_design.jpg": "/archeneer_gh_pages/static/media/old_civilization_design.d20bb9fbc7dbc79993ae.jpg",
@@ -19,10 +19,10 @@
     "static/media/facebook.svg": "/archeneer_gh_pages/static/media/facebook.802197fac2cf1a7632479f850c34339b.svg",
     "static/media/notification_icon.svg": "/archeneer_gh_pages/static/media/notification_icon.1505bd8034943004a962.svg",
     "main.d470b2ae.css.map": "/archeneer_gh_pages/static/css/main.d470b2ae.css.map",
-    "main.580b836a.js.map": "/archeneer_gh_pages/static/js/main.580b836a.js.map"
+    "main.81e9f98a.js.map": "/archeneer_gh_pages/static/js/main.81e9f98a.js.map"
   },
   "entrypoints": [
     "static/css/main.d470b2ae.css",
-    "static/js/main.580b836a.js"
+    "static/js/main.81e9f98a.js"
   ]
 }
