@@ -3,7 +3,7 @@ import { useGLTF } from "@react-three/drei";
 import { motion } from "framer-motion-3d";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF("/skyscraper1.gltf");
+  const { nodes, materials } = useGLTF("archeneer_gh_pages/skyscraper1.gltf");
 
     const [mainColor, setMainColor] = useState("#d4c03f");
     const [secondColor, setSecondColor] = useState("#5c5b54");

@@ -1,7 +1,7 @@
 {
   "name": "react_color_changer",
   "version": "0.1.0",
-  "homepage": "https://MoTarigOs.github.io/archeneer_gh_pages",
+  "homepage": "https://motarigos.github.io/archeneer_gh_pages",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.80.9",

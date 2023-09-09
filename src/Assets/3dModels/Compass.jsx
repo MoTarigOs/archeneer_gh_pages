@@ -3,7 +3,7 @@ import { useGLTF } from "@react-three/drei";
 import { motion } from 'framer-motion-3d';
 
 export default function Compass(props) {
-  const { nodes, materials } = useGLTF("/compass.glb");
+  const { nodes } = useGLTF("archeneer_gh_pages/compass.glb");
   return (
     <Suspense>
       <motion.group {...props} dispose={null}
@@ -34,4 +34,4 @@ export default function Compass(props) {
   );
 }
 
-useGLTF.preload("/compass.glb");
+useGLTF.preload("archeneer_gh_pages/compass.glb");
