@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import './Header.css';
-import LogoImage from '../Assets/myLogo.png';
+import LogoImage from './Assets/myLogo.png';
 
 const Header = ({ setScrollToTop }) => {
 
