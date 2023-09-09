@@ -33,3 +33,10 @@
     scale: 1.175 1.25;
     transition: all 0.3s ease-in;
 }
+
+@media screen and (max-width: 360px){
+    .Footer h2{
+        font-size: 1.75rem;
+        letter-spacing: 1px;
+    }
+}

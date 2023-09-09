@@ -108,3 +108,15 @@
         line-height: 22px;
     }
 }
+
+@media screen and (max-width: 680px){
+    .WelcomContainer .Welcom .Model {
+        scale: 0.58;
+        bottom: 0;
+        right: -225px;
+    }
+
+    .WelcomContainer .Welcom .WelcomText h1{
+        font-size: 2.5rem;
+    }
+}

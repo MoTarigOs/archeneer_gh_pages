@@ -127,6 +127,37 @@ const Card = ({
     }
   }
 
+  const [cardStyle, setCardStyle] = useState(window.innerWidth > 680 ? ({
+    height: window.innerHeight > 1060 ? 700 : 450,
+    maxWidth: window.innerHeight > 1060 ? 550 : 330,
+    boxShadow: whichSide === 1 ? "1px 4px 8px rgb(130, 130, 130)" : 'none'
+  }) : ({
+    maxWidth: window.innerHeight > 1060 ? 550 : 330,
+    boxShadow: whichSide === 1 ? "1px 4px 8px rgb(130, 130, 130)" : 'none'
+  }));
+
+  useEffect(() => {
+    window.addEventListener("resize", () => {setCardStyle(window.innerWidth > 680 ? ({
+      height: window.innerHeight > 1060 ? 700 : 450,
+      maxWidth: window.innerHeight > 1060 ? 550 : 330,
+      boxShadow: whichSide === 1 ? "1px 4px 8px rgb(130, 130, 130)" : 'none'
+    }) : ({
+      maxWidth: window.innerHeight > 1060 ? 550 : 330,
+      boxShadow: whichSide === 1 ? "1px 4px 8px rgb(130, 130, 130)" : 'none'
+    }))});
+
+    return () => {
+      window.removeEventListener("resize", () => {setCardStyle(window.innerWidth > 680 ? ({
+        height: window.innerHeight > 1060 ? 700 : 450,
+        maxWidth: window.innerHeight > 1060 ? 550 : 330,
+        boxShadow: whichSide === 1 ? "1px 4px 8px rgb(130, 130, 130)" : 'none'
+      }) : ({
+        maxWidth: window.innerHeight > 1060 ? 550 : 330,
+        boxShadow: whichSide === 1 ? "1px 4px 8px rgb(130, 130, 130)" : 'none'
+      }))});
+    }
+  }, [])
+
   return (
 
     <>
@@ -134,11 +165,7 @@ const Card = ({
       {type === 1 &&
 
           <motion.div className='Card1'
-            style={{
-              height: window.innerHeight > 800 ? 700 : 450,
-              maxWidth: window.innerHeight > 800 ? 550 : 330,
-              boxShadow: whichSide === 1 ? "1px 4px 8px rgb(130, 130, 130)" : 'none'
-            }}
+            style={cardStyle}
             initial={{
               scale: 1.1,
               opacity: 0
@@ -167,11 +194,7 @@ const Card = ({
       {type === 2 &&
 
         <motion.div 
-          style={{
-            height: window.innerHeight > 800 ? 700 : 450,
-            maxWidth: window.innerHeight > 800 ? 550 : 330,
-            boxShadow: whichSide === 1 ? "1px 4px 8px rgb(130, 130, 130)" : 'none'
-          }}
+          style={cardStyle}
           className='Card2'
           initial={{
               opacity: 0,

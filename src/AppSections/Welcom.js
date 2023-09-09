@@ -163,10 +163,10 @@ const Welcom = ({ windowScrollY, setExploreBtn, setWelcomVH }) => {
                         }
                     }}
                     style={{
-                        top: window.innerWidth < 960 ? "50%" : null,
-                        width: window.innerWidth < 960 ? "300px" : "fit-content",
-                        height: window.innerWidth < 960 ? "300px" : "fit-content",
-                        scale: window.innerWidth < 960 ? 0.8 : 1,
+                        top: window.innerWidth < 960 && window.innerWidth > 680 ? "50%" : null,
+                        width: window.innerWidth < 960 && window.innerWidth > 680 ? "300px" : "fit-content",
+                        height: window.innerWidth < 960 && window.innerWidth > 680 ? "300px" : "fit-content",
+                        scale: window.innerWidth < 960 && window.innerWidth > 680 ? 0.8 : 1,
                     }}
                 >
                     <Canvas frameloop='always' camera={{position:[0 ,50 ,80], fov: 30}} 
@@ -178,6 +178,8 @@ const Welcom = ({ windowScrollY, setExploreBtn, setWelcomVH }) => {
                             minPolarAngle={Math.PI / 4}
                             max
                         />
+                        
+                        <SkyScraper1 scale={0.15} position={[0, -18, 0]}/>
                     </Canvas>
                 </motion.div>
 

@@ -202,6 +202,22 @@
 }
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 655px){
+    .Card2 h1{
+        font-size: 1.2rem;
+    }
     
+    .Card2 p {
+        font-size: 0.8rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 18px;
+    }
+    
+    .Card2 button{
+        width: 100%;
+        padding: 4px;
+        font-size: 0.75rem;
+        line-height: 20px;
+    }
 }

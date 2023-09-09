@@ -3,7 +3,7 @@ import Footer from './AppSections/Footer';
 import Header from './AppSections/Header';
 import Hero from './AppSections/Hero';
 import Welcom from './AppSections/Welcom';
-import LoadingCanvas from './components/LoadingCanvas';
+import LoadingScreen from './components/LoadingScreen';
 
 function App() {
 
@@ -69,7 +69,7 @@ function App() {
 
         <>
           
-          <LoadingCanvas />
+          <LoadingScreen />
 
         </>
         
