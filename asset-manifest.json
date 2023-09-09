@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/archeneer_gh_pages/static/css/main.d470b2ae.css",
-    "main.js": "/archeneer_gh_pages/static/js/main.919d03a6.js",
+    "main.css": "/archeneer_gh_pages/static/css/main.196076c9.css",
+    "main.js": "/archeneer_gh_pages/static/js/main.d41f494b.js",
     "static/media/inside_is_no_less_important.jpg": "/archeneer_gh_pages/static/media/inside_is_no_less_important.11fb65dcd4a437d7ad9a.jpg",
     "static/media/beutiful_relaxed_design.jpg": "/archeneer_gh_pages/static/media/beutiful_relaxed_design.d409a7ec63fc7456d738.jpg",
+    "static/media/compass_out_video.mp4": "/archeneer_gh_pages/static/media/compass_out_video.01ec926c27e86da36f50.mp4",
     "static/media/old_civilization_design.jpg": "/archeneer_gh_pages/static/media/old_civilization_design.d20bb9fbc7dbc79993ae.jpg",
     "static/media/normal_design.jpg": "/archeneer_gh_pages/static/media/normal_design.e9fa89c75281d1aded1e.jpg",
     "static/media/tall_building.jpg": "/archeneer_gh_pages/static/media/tall_building.e44e0f031c0627d9cade.jpg",
@@ -18,11 +19,11 @@
     "index.html": "/archeneer_gh_pages/index.html",
     "static/media/facebook.svg": "/archeneer_gh_pages/static/media/facebook.802197fac2cf1a7632479f850c34339b.svg",
     "static/media/notification_icon.svg": "/archeneer_gh_pages/static/media/notification_icon.1505bd8034943004a962.svg",
-    "main.d470b2ae.css.map": "/archeneer_gh_pages/static/css/main.d470b2ae.css.map",
-    "main.919d03a6.js.map": "/archeneer_gh_pages/static/js/main.919d03a6.js.map"
+    "main.196076c9.css.map": "/archeneer_gh_pages/static/css/main.196076c9.css.map",
+    "main.d41f494b.js.map": "/archeneer_gh_pages/static/js/main.d41f494b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d470b2ae.css",
-    "static/js/main.919d03a6.js"
+    "static/css/main.196076c9.css",
+    "static/js/main.d41f494b.js"
   ]
 }
