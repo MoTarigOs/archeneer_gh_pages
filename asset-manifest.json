@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/archeneer_gh_pagess/static/css/main.a9a85581.css",
-    "main.js": "/archeneer_gh_pagess/static/js/main.0787a48e.js",
-    "static/media/inside_is_no_less_important.jpg": "/archeneer_gh_pagess/static/media/inside_is_no_less_important.11fb65dcd4a437d7ad9a.jpg",
-    "static/media/beutiful_relaxed_design.jpg": "/archeneer_gh_pagess/static/media/beutiful_relaxed_design.d409a7ec63fc7456d738.jpg",
-    "static/media/old_civilization_design.jpg": "/archeneer_gh_pagess/static/media/old_civilization_design.d20bb9fbc7dbc79993ae.jpg",
-    "static/media/normal_design.jpg": "/archeneer_gh_pagess/static/media/normal_design.e9fa89c75281d1aded1e.jpg",
-    "static/media/tall_building.jpg": "/archeneer_gh_pagess/static/media/tall_building.e44e0f031c0627d9cade.jpg",
-    "static/media/perfect_design.jpg": "/archeneer_gh_pagess/static/media/perfect_design.1635c70bf8c4d5a75f8a.jpg",
-    "static/media/apartment_photo.jpg": "/archeneer_gh_pagess/static/media/apartment_photo.d9f1fb73114ec10870d2.jpg",
-    "static/media/constructors_working.png": "/archeneer_gh_pagess/static/media/constructors_working.2d556862d6a09378aa06.png",
-    "static/media/constructing_brain.png": "/archeneer_gh_pagess/static/media/constructing_brain.10ad145c95da9409e7c2.png",
-    "static/media/construct_worker.png": "/archeneer_gh_pagess/static/media/construct_worker.dd7f37461e0cfa431085.png",
-    "static/media/constructor_working.png": "/archeneer_gh_pagess/static/media/constructor_working.36ce9b5b4ca2ab4a2605.png",
-    "static/media/whatsapp.svg": "/archeneer_gh_pagess/static/media/whatsapp.c52473576f55eb833347ace0a620333e.svg",
-    "static/media/settings_icon.svg": "/archeneer_gh_pagess/static/media/settings_icon.e3eb08189ef371b20da9.svg",
-    "index.html": "/archeneer_gh_pagess/index.html",
-    "static/media/facebook.svg": "/archeneer_gh_pagess/static/media/facebook.802197fac2cf1a7632479f850c34339b.svg",
-    "static/media/notification_icon.svg": "/archeneer_gh_pagess/static/media/notification_icon.1505bd8034943004a962.svg",
-    "main.a9a85581.css.map": "/archeneer_gh_pagess/static/css/main.a9a85581.css.map",
-    "main.0787a48e.js.map": "/archeneer_gh_pagess/static/js/main.0787a48e.js.map"
+    "main.css": "/archeneer_gh_pages/static/css/main.d470b2ae.css",
+    "main.js": "/archeneer_gh_pages/static/js/main.580b836a.js",
+    "static/media/inside_is_no_less_important.jpg": "/archeneer_gh_pages/static/media/inside_is_no_less_important.11fb65dcd4a437d7ad9a.jpg",
+    "static/media/beutiful_relaxed_design.jpg": "/archeneer_gh_pages/static/media/beutiful_relaxed_design.d409a7ec63fc7456d738.jpg",
+    "static/media/old_civilization_design.jpg": "/archeneer_gh_pages/static/media/old_civilization_design.d20bb9fbc7dbc79993ae.jpg",
+    "static/media/normal_design.jpg": "/archeneer_gh_pages/static/media/normal_design.e9fa89c75281d1aded1e.jpg",
+    "static/media/tall_building.jpg": "/archeneer_gh_pages/static/media/tall_building.e44e0f031c0627d9cade.jpg",
+    "static/media/perfect_design.jpg": "/archeneer_gh_pages/static/media/perfect_design.1635c70bf8c4d5a75f8a.jpg",
+    "static/media/apartment_photo.jpg": "/archeneer_gh_pages/static/media/apartment_photo.d9f1fb73114ec10870d2.jpg",
+    "static/media/constructors_working.png": "/archeneer_gh_pages/static/media/constructors_working.2d556862d6a09378aa06.png",
+    "static/media/constructing_brain.png": "/archeneer_gh_pages/static/media/constructing_brain.10ad145c95da9409e7c2.png",
+    "static/media/construct_worker.png": "/archeneer_gh_pages/static/media/construct_worker.dd7f37461e0cfa431085.png",
+    "static/media/constructor_working.png": "/archeneer_gh_pages/static/media/constructor_working.36ce9b5b4ca2ab4a2605.png",
+    "static/media/whatsapp.svg": "/archeneer_gh_pages/static/media/whatsapp.c52473576f55eb833347ace0a620333e.svg",
+    "static/media/settings_icon.svg": "/archeneer_gh_pages/static/media/settings_icon.e3eb08189ef371b20da9.svg",
+    "index.html": "/archeneer_gh_pages/index.html",
+    "static/media/facebook.svg": "/archeneer_gh_pages/static/media/facebook.802197fac2cf1a7632479f850c34339b.svg",
+    "static/media/notification_icon.svg": "/archeneer_gh_pages/static/media/notification_icon.1505bd8034943004a962.svg",
+    "main.d470b2ae.css.map": "/archeneer_gh_pages/static/css/main.d470b2ae.css.map",
+    "main.580b836a.js.map": "/archeneer_gh_pages/static/js/main.580b836a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9a85581.css",
-    "static/js/main.0787a48e.js"
+    "static/css/main.d470b2ae.css",
+    "static/js/main.580b836a.js"
   ]
 }
