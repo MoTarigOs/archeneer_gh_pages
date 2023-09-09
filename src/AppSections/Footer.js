@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 import facebookIcon from '../Assets/icons/facebook.svg';
 import whatsappIcon from '../Assets/icons/whatsapp.svg';
 import behanceIcon from '../Assets/icons/behance_icon.png';
