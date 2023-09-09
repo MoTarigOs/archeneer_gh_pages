@@ -1,0 +1,35 @@
+.Footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.Footer h2{
+    color: #e9e9e9;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.Footer .footerIcons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.Footer .footerIcons img{
+    width: 44px;
+    height: 44px;
+    scale: 1.075 1.15;
+    transition: all 0.3s ease-out;
+}
+
+.Footer img:hover{
+    transform: translateY(-4px);
+    scale: 1.175 1.25;
+    transition: all 0.3s ease-in;
+}

@@ -1,0 +1,85 @@
+.HeroContainer{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.HeroContainer .Hero{
+    width: 100%;
+    max-width: 1300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.HeroContainer .Hero .cardSection{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HeroContainer .Hero .cardSection .card{
+    width: 100vw;
+    height: 100vh;
+    max-height: 1200px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+}
+
+.HeroContainer .Hero .OurServices{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 64px 16px;
+}
+
+.HeroContainer .Hero .OurServices::after{
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background: #e9e9e9;
+    top: 0;
+    left: calc(50% - 50vw);
+}
+
+.HeroContainer .Hero .OurServices span{
+    height: 60px;
+    font-size: 2.7rem;
+    font-weight: 650;
+    z-index: 1;
+}
+
+.HeroContainer .Hero .OurServices .servicesCards{
+    width: 100%;
+    max-width: 1300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 16px;
+    gap: 32px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 700px){
+    .HeroContainer .Hero .cardSection .card{
+        gap: 16px;
+    }
+
+    .HeroContainer .Hero .OurServices .servicesCards{
+        flex-direction: column;
+    }
+}
