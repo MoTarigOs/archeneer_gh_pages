@@ -2,7 +2,6 @@ import React, { Suspense } from 'react';
 import './LoadingCanvas.css';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import Compass from '../Assets/3dModels/Compass';
 import Canvas2d from '../components/Canvas2d';
 
 const LoadingCanvas = () => {
@@ -30,10 +29,6 @@ const LoadingCanvas = () => {
                   <pointLight intensity={0} position={[0,0,50]}/>
                   <OrbitControls enableZoom={false} enableRotate={false} enablePan={false} enableDamping={false}/>
 
-                  <Compass 
-                    scale={1} 
-                    position={[0 ,0 ,0]}
-                  />
               </Canvas>
             </Suspense>
               

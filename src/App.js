@@ -7,7 +7,7 @@ import LoadingCanvas from './components/LoadingCanvas';
 
 function App() {
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [windowScrollY, setWindowScrollY] = useState(0);
   const [scrollToTop, setScrollToTop] = useState(false);
   const [exploreBtn, setExploreBtn] = useState(false);

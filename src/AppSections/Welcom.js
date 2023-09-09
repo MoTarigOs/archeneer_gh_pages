@@ -178,8 +178,6 @@ const Welcom = ({ windowScrollY, setExploreBtn, setWelcomVH }) => {
                             minPolarAngle={Math.PI / 4}
                             max
                         />
-                        
-                        <SkyScraper1 scale={0.15} position={[0, -18, 0]}/>
                     </Canvas>
                 </motion.div>
 
