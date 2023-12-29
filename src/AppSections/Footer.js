@@ -6,8 +6,8 @@ import behanceIcon from '../Assets/icons/behance_icon.png';
 
 const Footer = () => {
 
-  const myWhatsappURL = "https://wa.me/00249994597261";
-  const myFacebookURL = "https://www.facebook.com/profile.php?id=100029916982623";
+  const myWhatsappURL = "https://wa.me/00963991012169";
+  const myFacebookURL = "https://www.facebook.com/elgade.websites";
   const myBehanceURL = "https://www.behance.net/moTarigOs";
 
   return (
